@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  aspcorewithdocker:
+    image: aspcorewithdocker
+    build:
+      context: ./AspCoreWithDocker
+      dockerfile: Dockerfile

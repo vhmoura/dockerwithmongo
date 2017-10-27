@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWithDocker", "AspCoreWithDocker\AspCoreWithDocker.csproj", "{DDE9CD3E-08D1-4281-AE4E-34764986CCC0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{884C44FC-528B-415E-928C-63F0B6BA699A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE9CD3E-08D1-4281-AE4E-34764986CCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE9CD3E-08D1-4281-AE4E-34764986CCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE9CD3E-08D1-4281-AE4E-34764986CCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE9CD3E-08D1-4281-AE4E-34764986CCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884C44FC-528B-415E-928C-63F0B6BA699A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884C44FC-528B-415E-928C-63F0B6BA699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884C44FC-528B-415E-928C-63F0B6BA699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884C44FC-528B-415E-928C-63F0B6BA699A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
